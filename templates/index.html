@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Face Mask Detection</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRI Brain Tumor Detection</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,9 +43,9 @@
 </head>
 <body>
     <div class="form-container">
-        <h2>Face Mask Detection</h2>
+        <h2>MRI Brain Tumor Detection</h2>
         <form action="/predict" method="post" enctype="multipart/form-data">
-            <label for="file">Upload Image:</label>
+            <label for="file">Upload MRI Image:</label>
             <input type="file" name="file" accept="image/*" required>
             <input type="submit" value="Predict">
         </form>
